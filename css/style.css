@@ -142,7 +142,6 @@ figure {
   color: var(--brand-color);
   fill: var(--brand-color);
   cursor: pointer;
-
 }
 
 .contact {
@@ -165,7 +164,7 @@ figure {
 .contact__tel {
   display: inline-flex;
   padding-left: 20px;
-}
+  }
 
 .contact a {
   text-decoration: none;
@@ -185,7 +184,6 @@ figure {
   text-decoration: none;
   color: var(--brand-color);
   fill: var(--brand-color);
-
 }
 
 .active__link::after {
@@ -210,12 +208,12 @@ ul {
   padding-inline-start: 0px;
 }
 
-.icon-envelope {
+.contact__icons-envelope {
   display: flex;
   margin-right: 10px;
 }
 
-.icon-smartphone {
+.contact__icons-smartphone {
   display: flex;
   margin-right: 10px;
 }

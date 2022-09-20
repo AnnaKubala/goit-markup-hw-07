@@ -447,17 +447,16 @@ Label {
   position: relative;
 }
 
-.icon-Vector {
+.label__agreement__icon {
   Display: flex;
   position: absolute;
   width: 16px;
   height: 15px;
   fill: var(--main-color);
   top: 3px;
-
 }
 
-.vector-box::before {
+.label__agreement__checkbox::before {
   Display: block;
   content: "";
   Position: absolute;
@@ -485,7 +484,7 @@ Input:checked+svg {
   cursor: pointer;
 }
 
-.agreement {
+.label__agreement {
   display: flex;
   margin-left: 14px;
   margin-top: 25px;
@@ -493,7 +492,7 @@ Input:checked+svg {
   cursor: pointer;
 }
 
-.agreement-text {
+.label__agreement-text {
   display: flex;
   position: absolute;
   font-weight: 400;
@@ -505,7 +504,7 @@ Input:checked+svg {
 
 }
 
-.agreement-text a {
+.label__agreement-text a {
   color: var(--brand-color);
   padding-left: 5px;
   padding-right: 5px;

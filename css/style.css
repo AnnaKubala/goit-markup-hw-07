@@ -62,11 +62,6 @@ figure {
   display: inline-flex;
 }
 
-.menu_nav {
-  display: inline-flex;
-  align-items: center;
-}
-
 .logo {
   align-items: center;
   padding-right: 93px;
@@ -80,14 +75,16 @@ figure {
   color: var(--brand-color);
 }
 
-
-
 .header__logo {
   color: var(--second-color);
 }
 
-
 .navigation {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navigation__list {
   display: flex;
   gap: 46px;
   align-items: center;
@@ -101,7 +98,7 @@ figure {
   position: relative;
 }
 
-.navigation a {
+.navigation__list a {
   display: inline-flex;
   text-decoration: none;
   color: var(--text-color);

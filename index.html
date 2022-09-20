@@ -65,20 +65,18 @@
            <div class="form__label"> 
             <label for="username" class="label__name">
              Imię       
-             <input class="label__input-box" type="text" name="username" id="username" required> 
-               <svg class="icon-person-black" id="icon-person-black"
-                  width="12" height="12" viewBox="0 0 12 12" x="192"  y="0">
-                  <use href="./images/icons.svg#icon-person-black"></use></svg>
+             <input class="label__input" type="text" name="username" id="username" required> 
+               <svg class="label__input__icon" id="icon-person-black" width="12" height="12" viewBox="0 0 12 12" x="192"  y="0">
+               <use href="./images/icons.svg#icon-person-black"></use></svg>
              </label>
           </div> 
 
           <div class="form__label">
             <label for="phone_number" class="label__name">
               telefon
-              <input class="label__input-box" type="tel" name="phone_number" id="phone_number" required>
-                <svg class="icon-phone-black" id="icon-phone-black"
-                  width="32" height="32" viewBox="0 0 32 32" x="144" y="0">
-                  <use href="./images/icons.svg#icon-phone-black"></use></svg>
+              <input class="label__input" type="tel" name="phone_number" id="phone_number" required>
+                <svg class="label__input__icon" id="icon-phone-black" width="32" height="32" viewBox="0 0 32 32" x="144" y="0">
+                <use href="./images/icons.svg#icon-phone-black"></use></svg>
             </label>
           </div>
         
@@ -86,22 +84,22 @@
             <div class="form__label">
             <label for="email" class="label__name">
               E-mail 
-             <input class="label__input-box" type="email" name="email" id="email" required>
-                   <svg class="icon-email-black" id="icon-email-black"width="15" height="12" viewBox="0 0 32 32" x="96" y="0">
+             <input class="label__input" type="email" name="email" id="email" required>
+                   <svg class="label__input__icon" id="icon-email-black"width="15" height="12" viewBox="0 0 32 32" x="96" y="0">
                     <use href="./images/icons.svg#icon-email-black"></use>
                   </svg>
               
            </label>
           </div>
-            <div class="form__label comment">
+            <div class="form__label label__comment">
             <label for="comment">
-             <span class="label__name"> Komentarz</span>
-              <textarea class="input-comment" name="comment" id="comment" placeholder="Wprowadź tekst" required></textarea>
+             <span class="label__name">Komentarz</span>
+              <textarea class="label__comment__textarea" name="comment" id="comment" placeholder="Wprowadź tekst" required></textarea>
             </label></div>
          
         <label class="agreement">
             <span class="vector-box">
-            <input  type="checkbox" name="agreement" value="agree" />
+            <input  type="checkbox" name="agreement" value="agree"/>
              <svg class="icon-Vector " id="icon-Vector" width="11" height="8" viewBox="0 0 32 32" x="50" y="0">
             <use href="./images/icons.svg#icon-Vector"></use>
              </svg> 

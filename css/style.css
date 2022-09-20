@@ -164,7 +164,7 @@ figure {
 .contact__tel {
   display: inline-flex;
   padding-left: 20px;
-  }
+}
 
 .contact a {
   text-decoration: none;
@@ -366,8 +366,7 @@ ul {
   display: flex;
 }
 
-
-.label__input-box {
+.label__input {
   display: block;
   padding: 0 0 0 30px;
   margin: 3px 0 10px 0;
@@ -380,54 +379,33 @@ ul {
   outline: none;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: transform, background-color, fill, border;
-
 }
 
-.label__input-box:focus,
-.label__input-box:hover {
+.label__input:focus,
+.label__input:hover {
   border: 1px solid var(--brand-color);
   fill: var(--brand-color);
   background-color: var(--main-color);
   cursor: pointer;
 }
 
-.label__input-box:focus-within+svg,
-.label__input-box:hover+svg {
+.label__input:focus-within+svg,
+.label__input:hover+svg {
   fill: var(--brand-color);
   background-color: var(--main-color);
   cursor: pointer;
 }
 
-.icon-person-black {
+.label__input__icon {
   position: absolute;
   top: 30px;
   left: 15px;
-  width: 12px;
-  height: 12px;
-  fill: var(--text-color);
-
-}
-
-.icon-phone-black {
-  position: absolute;
-  width: 13px;
+  width: 15px;
   height: 13px;
   fill: var(--text-color);
-  top: 30px;
-  left: 15px;
-
 }
 
-.icon-email-black {
-  position: absolute;
-  width: 15px;
-  height: 12px;
-  fill: var(--text-color);
-  top: 30px;
-  left: 15px;
-}
-
-.input-comment {
+.label__comment__textarea {
   width: 448px;
   height: 120px;
   padding: 12px 16px;
@@ -447,18 +425,17 @@ ul {
   margin-top: 4px;
 }
 
-.input-comment:hover,
-.input-comment:focus {
+.label__comment__textarea:hover,
+.label__comment__textarea:focus {
   border: 1px solid var(--brand-color);
   color: var(--text-color);
 }
 
-.comment {
+.label__comment {
   width: 448px;
   height: 138px;
   resize: none;
   outline: none;
-
 }
 
 Input {

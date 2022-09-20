@@ -145,8 +145,6 @@ figure {
 
 }
 
-
-
 .contact {
   display: inline-flex;
   padding-left: 315px;
@@ -160,19 +158,12 @@ figure {
   letter-spacing: 0.02em;
 }
 
-.e-mail {
+.contact__e-mail {
   display: flex;
 }
 
-.tel {
+.contact__tel {
   display: inline-flex;
-  text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   padding-left: 20px;
 }
 
@@ -182,7 +173,6 @@ figure {
 }
 
 .contact__link {
-  text-decoration: none;
   color: var(--text2-color);
   fill: var(--text2-color);
   transition: 250ms;
@@ -220,10 +210,8 @@ ul {
   padding-inline-start: 0px;
 }
 
-
 .icon-envelope {
   display: flex;
-
   margin-right: 10px;
 }
 

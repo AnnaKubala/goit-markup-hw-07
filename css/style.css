@@ -77,13 +77,12 @@ figure {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-
-.logo__color1 {
   color: var(--brand-color);
 }
 
-.logo__color2 {
+
+
+.header__logo {
   color: var(--second-color);
 }
 
@@ -918,16 +917,9 @@ Input:checked+svg {
 .footer__logo {
   width: 145px;
   height: 31px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
-.logo__color3 {
+.footer__logo--color {
   color: var(--main-color);
 }
 

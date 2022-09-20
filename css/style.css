@@ -104,7 +104,7 @@ figure {
   color: var(--text-color);
 }
 
-.navigation__agencja {
+.navigation__agency {
   display: flex;
   cursor: pointer;
   transition: 250ms;
@@ -120,7 +120,7 @@ figure {
   transition-property: color, fill;
 }
 
-.navigation__kontakt {
+.navigation__contact {
   display: flex;
   gap: 50px;
   justify-content: space-between;
@@ -130,12 +130,12 @@ figure {
   transition-property: color, fill;
 }
 
-.navigation__agencja:hover,
-.navigation__agencja:focus,
+.navigation__agency:hover,
+.navigation__agency:focus,
 .navigation__portfolio:hover,
 .navigation__portfolio:focus,
-.navigation__kontakt:hover,
-.navigation__kontakt:focus,
+.navigation__contact:hover,
+.navigation__contact:focus,
 .icons__header:hover,
 .icons__header:focus {
   text-decoration: none;

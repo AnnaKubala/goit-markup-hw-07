@@ -737,16 +737,15 @@ Input:checked+svg {
   width: 87px;
 }
 
-.social__media-box {
+.social-media__box {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 206px;
   gap: 10px;
   margin: 0px 32px 18px;
 }
 
-.social__media-icon {
+.social-media__icon {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -764,22 +763,7 @@ Input:checked+svg {
 
 }
 
-.social__media-icon a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  gap: 10px;
-  border-radius: 50%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: var(--main-color);
-  fill: var(--fill-color);
-}
-
-.social__media-icon:hover svg {
+.social-media__icon:hover svg {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
@@ -789,7 +773,7 @@ Input:checked+svg {
 
 }
 
-.social__media-icon:focus-within svg {
+.social-media__icon:focus-within svg {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
@@ -799,7 +783,7 @@ Input:checked+svg {
   transition: 0.3s;
 }
 
-.our__clients-header {
+.our-clients__header {
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto 50px auto;
@@ -812,14 +796,14 @@ Input:checked+svg {
   color: var(--text-color);
 }
 
-.our__clients-list {
+.our-clients__list {
   padding: 0;
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
-.client_box {
+.our-client__box {
   width: 170px;
   height: 92px;
   border: 1px solid var(--fill-color);
@@ -832,8 +816,8 @@ Input:checked+svg {
   transition-property: fill, background-color, transition;
 }
 
-.client_box:hover,
-.client_box:focus-within {
+.our-client__box:hover,
+.our-client__box:focus-within {
   border-radius: 4px;
   border-color: var(--brand-color);
   border-style: solid;
@@ -843,31 +827,31 @@ Input:checked+svg {
 
 }
 
-.icon-group-1 {
+.our-client__icon-1 {
   margin: 24px 64px 20.5px;
 }
 
-.icon-group-2 {
+.our-client__icon-2 {
   margin: 20.71px 64px 19.29px;
 }
 
-.icon-group-3 {
+.our-client__icon-3 {
   margin: 24.7px 61.68px 26.12px;
 }
 
-.icon-group-4 {
+.our-client__icon-4 {
   margin: 24.7px 43px 26.68px;
 }
 
-.icon-group-5 {
+.our-client__icon-5 {
   margin: 22.77px 54px 23.8px;
 }
 
-.icon-group-6 {
+.our-client__icon-6 {
   margin: 22.77px 38px 25.31px;
 }
 
-.container__footer {
+.footer__container {
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -882,7 +866,7 @@ Input:checked+svg {
   color: var(--main-color);
 }
 
-.adress {
+.footer__adress {
   display: block;
   margin-top: 20px;
   font-style: normal;
@@ -895,19 +879,19 @@ Input:checked+svg {
   height: 21px;
 }
 
-.footer-box {
+.footer__box {
   display: block;
   width: 246px;
   margin-right: 70px;
 }
 
-.contact_footer {
+.footer__contact {
   display: block;
   padding-inline-start: 0px;
   margin: 9px 0;
 }
 
-.footer_e-mail {
+.footer__e-mail {
   display: flex;
   display: block;
   font-weight: 400;
@@ -917,7 +901,7 @@ Input:checked+svg {
   color: var(--footer-color);
 }
 
-.footer_tel {
+.footer__tel {
   display: flex;
   font-weight: 400;
   width: 231px;
@@ -929,18 +913,17 @@ Input:checked+svg {
 
 .footer__bg {
   display: block;
-
   background: var(--footer_bg-color);
 }
 
-.social__footer {
+.footer__social {
   display: block;
   padding-top: 12px;
   width: 206px;
   height: 80px;
 }
 
-.join {
+.footer__social__join {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -952,17 +935,9 @@ Input:checked+svg {
   margin-bottom: 20px;
 }
 
-.social__footer-box {
-  display: flex;
-  flex-direction: row;
-  height: 44px;
-  gap: 10px;
-}
-
-.social__footer-icon {
+.footer__social--icon {
   display: inline-flex;
   justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   gap: 10px;
@@ -977,15 +952,14 @@ Input:checked+svg {
   transition-property: fill, background-color;
 }
 
-.social__footer-icon:hover svg,
-.social__footer-icon:focus-within svg {
+.footer__social--icon:hover svg,
+.footer__social--icon:focus-within svg {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--brand-color);
   fill: var(--main-color);
-
   cursor: pointer;
 }
 

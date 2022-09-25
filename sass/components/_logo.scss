@@ -1,3 +1,4 @@
+@use "../utils/colors" as *;
 .logo {
   align-items: center;
   padding-right: 93px;
@@ -8,5 +9,5 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: $getcolor("brand-color");
+  color: brand-color;
 }

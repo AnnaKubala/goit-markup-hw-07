@@ -1,3 +1,6 @@
 // tu zaimportuj wszystkie pliki i komponenty
 @forward "./utils/variables.scss";
-@forward "./components";
+@forward "./components/logo";
+@forward "./components/page-header";
+@forward "./components/navigation";
+@forward "./components/contact";

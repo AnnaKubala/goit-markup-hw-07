@@ -1,0 +1,12 @@
+.header {
+  height: 80px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 25px;
+  background: main-color;
+  border-bottom: 1px solid border-color;
+  display: inline-flex;
+  &__logo{
+    color: second-color;
+  }
+}

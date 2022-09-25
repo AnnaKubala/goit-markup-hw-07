@@ -1,0 +1,70 @@
+.navigation {
+  display: inline-flex;
+  align-items: center;
+  &__list {
+    display: flex;
+    gap: 46px;
+    align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    height: 80px;
+    position: relative;
+  }
+  & a {
+    display: inline-flex;
+    text-decoration: none;
+    color: text-color;
+  }
+}
+.navigation__agency {
+  display: flex;
+  cursor: pointer;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+.navigation__portfolio {
+  display: flex;
+  cursor: pointer;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+.navigation__contact {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  color: var(--text-color);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+}
+.navigation__agency:hover,
+.navigation__agency:focus,
+.navigation__portfolio:hover,
+.navigation__portfolio:focus,
+.navigation__contact:hover,
+.navigation__contact:focus,
+.icons__header:hover,
+.icons__header:focus {
+  text-decoration: none;
+  color: brand-color;
+  fill: brand-color;
+  cursor: pointer;
+}
+.navigation--active-link::after {
+  content: "";
+  position: absolute;
+  width: 53px;
+  border-bottom: 4px solid brand-color;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding-top: 44px;
+  display: block;
+}

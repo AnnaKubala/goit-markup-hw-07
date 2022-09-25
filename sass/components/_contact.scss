@@ -1,0 +1,36 @@
+.contact {
+  display: inline-flex;
+  padding-left: 315px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  &__e-mail {
+    display: flex;
+  }
+  &__tel {
+    display: inline-flex;
+    padding-left: 20px;
+  }
+  & a {
+    text-decoration: none;
+    display: flex;
+  }
+}
+.contact__link {
+  color: text2-color;
+  fill: text2-color;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, fill;
+  &:hover,
+  :focus {
+    text-decoration: none;
+    color: brand-color;
+    fill: brand-color;
+  }
+}

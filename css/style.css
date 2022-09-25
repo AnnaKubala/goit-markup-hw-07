@@ -185,7 +185,7 @@ figure {
   fill: var(--brand-color);
 }
 
-.active__link::after {
+.navigation--active-link::after {
   content: "";
   position: absolute;
   width: 53px;

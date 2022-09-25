@@ -1150,7 +1150,7 @@ Input:checked+svg {
   height: 294px;
 }
 
-.box__overlay {
+.projects__box--overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1163,7 +1163,7 @@ Input:checked+svg {
   background-color: var(--bg-overlay-color);
 }
 
-.box__overlay>p {
+.projects__box--overlay>p {
   color: var(--main-color);
   font-weight: 400;
   font-size: 18px;
@@ -1172,18 +1172,18 @@ Input:checked+svg {
   padding: 49px 45px 49px 24px;
 }
 
-.projects__box:hover .box__overlay {
+.projects__box:hover .projects__box--overlay {
   display: flex;
   position: absolute;
   transform: translate(0, 0);
 }
 
-.figcaption {
+.projects__figcaption {
   display: block;
   width: 370px;
 }
 
-.project__figcaption_title {
+.projects__figcaption--title {
   display: flex;
   padding: 20px 24px 4px;
   font-weight: 700;
@@ -1194,7 +1194,7 @@ Input:checked+svg {
   color: var(--text-color);
 }
 
-.project__figcaption_text {
+.projects__figcaption--text {
   display: flex;
   padding: 4px 24px 20px;
   font-weight: 400;

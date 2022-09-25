@@ -1,0 +1,11 @@
+$colors: (
+  "brand-color" #2196f3 "text-color" #212121 "text2-color" #757575
+    "footer-color" rgb(253, 253, 253, 60%) "footer_bg-color" #2f303a
+    "main-color" #ffffff "second-color" #000 "border-color" #ececec
+    "background-color" #e5e5e5 "filters-color" #f5f4fa "border-2-color" #eeeeee
+    "fill-color" #afb1b8 "bg-overlay-color" rgba(33, 150, 243, 0.9)
+);
+
+@function getcolor($key) {
+  @return map-get($colors, $key);
+}

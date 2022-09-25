@@ -963,7 +963,7 @@ Input:checked+svg {
   cursor: pointer;
 }
 
-.newsletter_box {
+.newsletter__box {
   display: inline;
   width: 570px;
   height: 86px;
@@ -971,7 +971,7 @@ Input:checked+svg {
   padding-top: 12px;
 }
 
-.input_email {
+.newsletter__input {
   display: inline;
   width: 358px;
   height: 50px;
@@ -988,13 +988,13 @@ Input:checked+svg {
   margin-right: 8px;
 }
 
-.input_email:hover,
-.input_email:focus {
+.newsletter__input:hover,
+.newsletter__input:focus {
   border: 1px solid var(--brand-color);
 }
 
 
-.btn_sign-in {
+.newsletter__button {
   width: 200px;
   height: 50px;
   background-color: var(--brand-color);
@@ -1012,25 +1012,27 @@ Input:checked+svg {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
-.sign-in {
+.newsletter__button--sign-in {
   display: flex;
   flex-direction: row;
 }
 
-.sign-in-text {
+.button__sign-in--text {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 24px;
 }
 
-.icon-icon-send {
+.button__sing-in--icon {
   display: flex;
   width: 24px;
   height: 24px;
   fill: var(--main-color);
   margin-top: 13px;
+
 }
 
 /* ----------------------------------------------STRONA PORTFOLIO-------------------------------------------------------------- */

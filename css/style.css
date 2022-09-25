@@ -1073,17 +1073,7 @@ Input:checked+svg {
 
 }
 
-.filter-1 {
-  width: 121px;
-  height: 38px;
-  background: var(--filters-color);
-  /* shadow-middle */
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.filter__text {
+.filters__text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -1092,43 +1082,35 @@ Input:checked+svg {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
-
-.filter-2 {
-  width: 93px;
-  height: 38px;
-  background: var(--filters-color);
-  border-radius: 4px;
   cursor: pointer;
   border: none;
-}
-
-.filter-3 {
-  width: 114px;
-  height: 38px;
-
-  background: var(--filters-color);
   border-radius: 4px;
-  cursor: pointer;
-  border: none;
-}
-
-.filter-4 {
-  width: 91px;
-  height: 38px;
   background: var(--filters-color);
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
 }
 
-.filter-5 {
+.filters--position1 {
   width: 121px;
   height: 38px;
-  background: var(--filters-color);
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
+}
+
+.filters--position2 {
+  width: 93px;
+  height: 38px;
+}
+
+.filters--position3 {
+  width: 114px;
+  height: 38px;
+}
+
+.filters--position4 {
+  width: 91px;
+  height: 38px;
+}
+
+.filters--position5 {
+  width: 121px;
+  height: 38px;
 }
 
 .projects {
@@ -1145,7 +1127,7 @@ Input:checked+svg {
 
 }
 
-.project_box {
+.projects__box {
   padding: 0;
   width: 370px;
   height: 404px;
@@ -1154,20 +1136,18 @@ Input:checked+svg {
   transition-property: transition, box-shadow;
 }
 
-.project_box:hover,
-.project_box:focus {
+.projects__box:hover,
+.projects__box:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-
 }
 
-.box_img-with-overlay {
+.projects__box--img-with-overlay {
   position: relative;
   overflow: hidden;
   width: 370px;
   height: 294px;
-
 }
 
 .box__overlay {
@@ -1190,14 +1170,12 @@ Input:checked+svg {
   line-height: 28px;
   letter-spacing: 0.03em;
   padding: 49px 45px 49px 24px;
-
 }
 
-.project_box:hover .box__overlay {
+.projects__box:hover .box__overlay {
   display: flex;
   position: absolute;
   transform: translate(0, 0);
-
 }
 
 .figcaption {

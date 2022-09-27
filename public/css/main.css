@@ -1,33 +1,33 @@
 ul {
   list-style-type: none;
   -webkit-margin-before: 0em;
-          margin-block-start: 0em;
+  margin-block-start: 0em;
   -webkit-margin-after: 0em;
-          margin-block-end: 0em;
+  margin-block-end: 0em;
   -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
+  margin-inline-start: 0px;
   -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-inline-end: 0px;
   -webkit-padding-start: 0px;
-          padding-inline-start: 0px;
+  padding-inline-start: 0px;
 }
 
 figure {
   -webkit-margin-before: 0em;
-          margin-block-start: 0em;
+  margin-block-start: 0em;
   -webkit-margin-after: 0em;
-          margin-block-end: 0em;
+  margin-block-end: 0em;
   -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
+  margin-inline-start: 0px;
   -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-inline-end: 0px;
 }
 
 p {
   -webkit-margin-before: 0em;
-          margin-block-start: 0em;
+  margin-block-start: 0em;
   -webkit-margin-after: 0em;
-          margin-block-end: 0em;
+  margin-block-end: 0em;
 }
 
 .main {
@@ -57,7 +57,7 @@ body {
 
 Input {
   -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   -webkit-appearance: none;
 }
 
@@ -67,8 +67,8 @@ Label {
 
 .logo {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-right: 93px;
   font-family: "Raleway";
   font-style: normal;
@@ -91,6 +91,7 @@ Label {
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
+
 .header__logo {
   color: second-color;
 }
@@ -100,17 +101,18 @@ Label {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
+
 .navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 46px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -120,6 +122,7 @@ Label {
   height: 80px;
   position: relative;
 }
+
 .navigation a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -136,7 +139,7 @@ Label {
   -webkit-transition: 250ms;
   transition: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: color, fill;
   transition-property: color, fill;
 }
@@ -149,7 +152,7 @@ Label {
   -webkit-transition: 250ms;
   transition: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: color, fill;
   transition-property: color, fill;
 }
@@ -160,13 +163,13 @@ Label {
   display: flex;
   gap: 50px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   color: var(--text-color);
   -webkit-transition: 250ms;
   transition: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: color, fill;
   transition-property: color, fill;
 }
@@ -204,11 +207,11 @@ Label {
   display: inline-flex;
   padding-left: 315px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -216,17 +219,20 @@ Label {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .contact__e-mail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .contact__tel {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding-left: 20px;
 }
+
 .contact a {
   text-decoration: none;
   display: -webkit-box;
@@ -240,10 +246,11 @@ Label {
   -webkit-transition: 250ms;
   transition: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: color, fill;
   transition-property: color, fill;
 }
+
 .contact__link:hover,
 .contact__link :focus {
   text-decoration: none;
@@ -264,13 +271,14 @@ Label {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-top: 200px;
 }
+
 .h1__bg {
   max-width: 1600px;
   height: 600px;
@@ -281,13 +289,14 @@ Label {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background-image.jpg");
   background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/background-image.jpg");
 }
+
 .h1__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 696px;
   margin: 0 auto;
   font-family: "Roboto";
@@ -306,8 +315,8 @@ Label {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 200px;
   height: 50px;
   margin: 0 auto;
@@ -317,14 +326,14 @@ Label {
   font-size: 16px;
   line-height: 1.87;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   background-color: brand-color;
   color: main-color;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -339,7 +348,7 @@ Label {
   position: fixed;
   z-index: 1;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: opacity 250ms linear, visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms linear, visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: opacity, visibility, -webkit-transform;
@@ -357,7 +366,7 @@ Label {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -368,9 +377,10 @@ Label {
   transition-property: transform, box-shadow, -webkit-transform, -webkit-box-shadow;
   background: var(--main-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+
 .modal__window__text {
   font-weight: 700;
   font-size: 20px;
@@ -392,11 +402,11 @@ Label {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -412,6 +422,7 @@ Label {
   transition-property: transform, color, border;
   transition-property: transform, color, border, -webkit-transform;
 }
+
 .btn__close:hover,
 .btn__close :focus {
   border: 1px solid brand-color;
@@ -422,6 +433,7 @@ Label {
   margin-left: 40px;
   margin-right: 40px;
 }
+
 .form__label {
   width: 448px;
   height: 58px;
@@ -470,6 +482,7 @@ Label {
   transition-property: transform, background-color, fill, border;
   transition-property: transform, background-color, fill, border, -webkit-transform;
 }
+
 .label__input:focus,
 .label__input :hover {
   border: 1px solid brand-color;
@@ -477,8 +490,9 @@ Label {
   background-color: main-color;
   cursor: pointer;
 }
-.label__input:focus-within + svg,
-.label__input :hover + svg {
+
+.label__input:focus-within+svg,
+.label__input :hover+svg {
   fill: brand-color;
   background-color: main-color;
   cursor: pointer;
@@ -527,6 +541,7 @@ Label {
   margin-bottom: 10px;
   margin-top: 4px;
 }
+
 .label__comment__textarea:hover,
 .label__comment__textarea :focus {
   border: 1px solid brand-color;
@@ -542,6 +557,7 @@ Label {
   position: relative;
   cursor: pointer;
 }
+
 .label__agreement--text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -554,6 +570,7 @@ Label {
   color: text2-color;
   margin-left: 25px;
 }
+
 .label__agreement--text a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -599,13 +616,13 @@ Label {
   cursor: pointer;
 }
 
-input:focus + svg {
+input:focus+svg {
   background-color: brand-color;
   fill: main-color;
   cursor: pointer;
 }
 
-Input:checked + svg {
+Input:checked+svg {
   background-color: brand-color;
   fill: main-color;
   cursor: pointer;
@@ -621,17 +638,17 @@ Input:checked + svg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   letter-spacing: 0.06em;
   color: var(--main-color);
   background-color: var(--brand-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   margin-left: 135px;
@@ -662,8 +679,8 @@ Input:checked + svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   margin: 0 auto;
   gap: 30px;
 }
@@ -716,13 +733,14 @@ Input:checked + svg {
   background-color: main-color;
   padding-top: 0;
 }
+
 .our-work__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   width: 1200px;
   font-weight: 700;
   font-size: 36px;
@@ -739,9 +757,10 @@ Input:checked + svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
+
 .our-work__list__item {
   width: 370px;
   margin-right: 30px;
@@ -754,8 +773,8 @@ Input:checked + svg {
   color: main-color;
   position: relative;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -764,12 +783,15 @@ Input:checked + svg {
   text-transform: uppercase;
   bottom: 48px;
 }
+
 .our-work__label_position-1 {
   padding: 27px 90px;
 }
+
 .our-work__label_position-2 {
   padding: 27px 112.9px;
 }
+
 .our-work__label _position-3 {
   padding: 27px 94px;
 }
@@ -780,13 +802,14 @@ Input:checked + svg {
   padding-right: 200px;
   background: filters-color;
 }
+
 .our-team__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   margin: 0 495px 50px;
   width: 210px;
   font-weight: 700;
@@ -795,16 +818,17 @@ Input:checked + svg {
   text-align: center;
   color: text-color;
 }
+
 .our-team__box {
   -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
+  margin-inline-start: 0px;
   -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-inline-end: 0px;
   margin-right: 30px;
   width: 270px;
   background-color: main-color;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -815,8 +839,8 @@ Input:checked + svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .our-team__figcaption {
@@ -850,15 +874,21 @@ Input:checked + svg {
   /* letter-spacing: 0.03em; */
   color: text2-color;
 }
+
 .our-team__text--1 {
   width: 130px;
 }
+
 .our-team__text--2 {
   width: 147px;
 }
+
 .our-team__text--3 {
   width: 76px;
 }
+
 .our-team__text--4 {
   width: 87px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

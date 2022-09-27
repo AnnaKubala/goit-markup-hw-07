@@ -1,0 +1,48 @@
+.features__list {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.features__box {
+  width: 270px;
+  height: 120px;
+  background: filters-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.features__box__icon-antenna {
+  margin: 25px 100px;
+}
+
+.features__box__icon-clock {
+  margin: 25px 101px;
+}
+
+.features__box__icon-diagram {
+  margin: 33px 100px;
+}
+
+.features__box__icon-astronaut {
+  margin: 25px 100px;
+}
+.features__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: text-color;
+}
+
+.features__text {
+  width: 270px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: text2-color;
+}

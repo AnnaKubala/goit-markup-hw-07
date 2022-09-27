@@ -207,15 +207,11 @@ ul {
   padding-inline-start: 0px;
 }
 
-.contact__icons-envelope {
+.contact--icons {
   display: flex;
   margin-right: 10px;
 }
 
-.contact__icons-smartphone {
-  display: flex;
-  margin-right: 10px;
-}
 
 .h1__bg {
   max-width: 1600px;
@@ -253,7 +249,7 @@ ul {
   color: var(--main-color);
 }
 
-.order {
+.btn--order {
   display: flex;
   justify-content: center;
   width: 200px;
@@ -341,7 +337,7 @@ ul {
 
 }
 
-.form___label {
+.form__label {
   width: 448px;
   height: 58px;
   margin-bottom: 10px;
@@ -491,7 +487,7 @@ Input:checked+svg {
   cursor: pointer;
 }
 
-.label__agreement__text {
+.label__agreement--text {
   display: flex;
   position: absolute;
   font-weight: 400;
@@ -504,9 +500,14 @@ Input:checked+svg {
 }
 
 .label__agreement__text a {
-  color: var(--brand-color);
-  padding-left: 5px;
-  padding-right: 5px;
+ display: flex;
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--text2-color);
+  margin-left: 25px;
 }
 
 .btn__submit {

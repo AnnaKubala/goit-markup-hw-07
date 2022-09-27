@@ -500,7 +500,7 @@ Input:checked+svg {
 }
 
 .label__agreement__text a {
- display: flex;
+  display: flex;
   position: absolute;
   font-weight: 400;
   font-size: 14px;
@@ -721,19 +721,19 @@ Input:checked+svg {
   color: var(--text2-color);
 }
 
-.our-team__text-1 {
+.our-team__text--1 {
   width: 130px;
 }
 
-.our-team__text-2 {
+.our-team__text--2 {
   width: 147px;
 }
 
-.our-team__text-3 {
+.our-team__text--3 {
   width: 76px;
 }
 
-.our-team__text-4 {
+.our-team__text--4 {
   width: 87px;
 }
 

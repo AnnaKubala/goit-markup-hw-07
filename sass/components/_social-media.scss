@@ -1,0 +1,40 @@
+.social-media__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0px 32px 18px;
+}
+.social-media__icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: main-color;
+  fill: fill-color;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform, background-color, fill;
+  &:hover svg {
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: brand-color;
+    fill: main-color;
+  }
+  &:focus-within svg {
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: brand-color;
+    fill: main-color;
+    transition: 0.3s;
+  }
+}

@@ -1,0 +1,65 @@
+.filters {
+  margin: 0 auto 34px;
+  /* padding-top: 94px; */
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-inline-start: 0px;
+  width: 1200px;
+  height: 54px;
+  flex-direction: row;
+  gap: 8px;
+  display: inline-flex;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transition, background-color, color, box-shadow;
+}
+.filters__active {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform, background-color, color, box-shadow;
+
+  &:hover,
+  :focus {
+    background-color: brand-color;
+    color: main-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+  }
+}
+.filters__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: text-color;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: filters-color;
+}
+.filters--position1 {
+  width: 121px;
+  height: 38px;
+}
+
+.filters--position2 {
+  width: 93px;
+  height: 38px;
+}
+.filters--position3 {
+  width: 114px;
+  height: 38px;
+}
+
+.filters--position4 {
+  width: 91px;
+  height: 38px;
+}
+.filters--position5 {
+  width: 121px;
+  height: 38px;
+}
